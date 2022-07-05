@@ -1,0 +1,45 @@
+/*cor*/
+:root{
+    --blue: #0000ff;
+    --red: #ff0000;
+    --yellow: #ffff00;
+    --green: green;
+}
+/* borda pontilhada*/
+p.dotted{
+    border-style: dotted;
+    border-width: 5px;
+    border-color: var(--blue);
+    /* fomato resumido */
+    /* border: 5px dotted var(--blue); */
+
+}
+/*borda solida*/
+p.solid{
+    border-style: solid;
+    border-width: 10px;
+    border-color: var(--red);
+    border-radius: 30px;
+}
+/*borda mista*/
+p.mixed{
+    border-width: 12px;
+    border-top: 5px double var(--red);
+    border-bottom: 5px dashed var(--yellow);
+    border-left: 10px solid var(--green);
+    border-right: 10px dotted var(--blue);
+}
+body{
+    margin: 25px 10px;
+}
+/* define separadamente*/
+p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+
+
+    padding: 30px 40px;
+
+}
